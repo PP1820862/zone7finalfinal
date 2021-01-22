@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url("bg.png");
+    background-size: cover;
+    background-position: center;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: #464D77;
+    cursor: pointer;
+}
+.logo img{
+    width: 30px;
+    margin-top: -4px;
+    margin-right: 48px;
+}
+.active {
+    color: #1F487E !important;
+}
+.banner {
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: #fff;
+
+}
+.app-text{
+    width: 50%;
+    float: left;
+}
+.app-text h1{
+    font-size: 120px;
+    width: 1000px;
+    position: relative;
+    margin-left: 165px;
+    margin-top: 70px;
+    color: #376996;
+}
+.app-text p{
+    width: 650px;
+    font-size: 20px;
+    color: #4F6272;
+    margin-left: 185px;
+}
+.app-picture{
+    width: 50%;
+    float: right;
+}
+.app-picture img{
+    width: 75%;
+    margin-left: 25px;
+}
